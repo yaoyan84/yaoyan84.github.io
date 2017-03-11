@@ -30,7 +30,7 @@ git clone下自己新建的yaoyan84.github.io仓库：
 git clone git@github.com:yaoyan84/yaoyan84.github.io.git
 ```
 
-根据主题的说明修改必要的配置文件，如 **_config.yml** 文件，然后清空 **_post** 文件夹里别人的文章，将自己的markdown文件到 **_post** 里，push仓库到Github上，即可用浏览器查看效果。
+根据主题的说明修改必要的配置文件，如 **_config.yml** 文件，然后清空 **_posts** 文件夹里别人的文章，将自己的markdown文件到 **_post** 里，push仓库到Github上，即可用浏览器查看效果。
 
 
 
