@@ -31,7 +31,7 @@ cd src
 
 下载Redis最新稳定版源码包：
 
-```shell
+```
 [redis@test src]$ wget http://download.redis.io/redis-stable.tar.gz
 --2017-02-21 00:15:41--  http://download.redis.io/redis-stable.tar.gz
 正在解析主机 download.redis.io (download.redis.io)... 109.74.203.151
