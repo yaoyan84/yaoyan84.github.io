@@ -1,23 +1,68 @@
-markdown: rdiscount
-highlighter: pygments
-permalink: /:year/:month/:day/:title.html
-name: "Yao Yan"
-markdown: rdiscount
+# Basic
+title: YaoYan
+subtitle: Blog
+description: 欢迎来到YaoYan的Blog~
+# 头像里面的标题
+avatarTitle: yaoyan
+# 头像里面的描述
+avatarDesc: 运维/瞎捣鼓
+url: "http://yaoyan.me"
 
-author: "Yao Yan"
-atom-baseurl: "http://yaoyan.me"
-disqus: ""
+# Comment
+comment:
+    # disqus:
+    duoshuo: 6393939095948625000
 
-navigations:
-  - title: Archive
-    class: fa fa-list-ul
-    href: /archive.html
-  - title: Tags
-    class: fa fa-tags
-    href: /tags.html
-#  - title: About
-#    class: fa fa-user
-#    href: /about.html
-  - title: Subscribe
-    class: fa fa-rss
-    href: /atom.xml
+# Social
+social:
+    #weibo:
+    github: yaoyan84
+    # twitter:
+    mail: yy@yaoyan.me
+
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+#baidu:
+#    id:
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+#ga:
+#    id: UA-84134159-3
+#    host: auto
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 关于我, description: about, url: '/about'}
+
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"

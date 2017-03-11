@@ -12,9 +12,7 @@ excerpt: 将博客从vps迁移到github。
 ## 准备工作
 1. 注册一个Github账号，有点废话，之前一直有帐号：yaoyan84
 2. 创建一个repository，名字使用 **"账户名.github.io"** 的格式
-3. 在这个repository的Settings里，找到下方的"GitHub Pages"选项，默认是打开的：
-
-![](/media/files/Snip20170311_3.png)
+3. 在这个repository的Settings里，找到下方的"GitHub Pages"选项，默认是打开的。
 
 此时访问地址： [https://yaoyan84.github.io](https://yaoyan84.github.io) 能看到默认 README.md 渲染之后的内容。
  
