@@ -20,7 +20,11 @@ excerpt: 将博客从vps迁移到github。
  
 ## 选择模版
 
-Github Pages使用Jekyll做生成器，模版资源很丰富，网上有很多大牛做的模版很漂亮，一个模版收集站：[jekyllthemes.org](http://jekyllthemes.org)。而且都在github上搜到别人的Pages站点，一般都许可fork拿来改改用，所以要找到模版很简单，挑个自己看着顺眼的就可以。
+Github Pages使用Jekyll做生成器，模版资源很丰富，网上有很多大牛做的模版很漂亮。
+
+一个模版收集站：[jekyllthemes.org](http://jekyllthemes.org)。
+
+而且在github上搜到别人的Pages站点，一般都许可fork拿来改改用，所以要找到模版很简单，挑个自己看着顺眼的就可以。
 
 git clone下自己新建的yaoyan84.github.io仓库：
 
