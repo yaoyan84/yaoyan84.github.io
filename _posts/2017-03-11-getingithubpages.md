@@ -7,8 +7,6 @@ tags: GitHub Pages Blog
 excerpt: 将博客从vps迁移到github。
 ---
 
-# 正式入住Github Pages
-
 以前一直使用一个国外的VPS，速度一直不怎么快，经常刷新多次都打不开，还偶尔会彻底失联。最近一段时间接触到了Github、markdown，才知道原来还有这么简单便捷的建站方式，相见恨晚。经过一段时间的折腾，决定迁移过来，反正以前的blog也很久不更新了，相当于从头再来。
 
 ## 准备工作
