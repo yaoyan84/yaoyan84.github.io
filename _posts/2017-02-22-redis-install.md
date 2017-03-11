@@ -7,7 +7,6 @@ tags: Redis 缓存
 excerpt: 记下Redis下载编译安装和启动的过程。
 ---
 
-# redis安装
 ## 准备工作
 创建一个redis用户用于运行redis
 
@@ -129,26 +128,33 @@ redis-server：Redis服务器启动程序
 
 启动时几个WARNING和提示：
 
-1. Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf \
-没有制定配置文件，使用默认的配置。使用"redis-server /path/to/redis" 方式指定加载一个配置文件方式启动。
+1. Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf 
 
-2. You requested maxclients of 10000 requiring at least 10032 max file descriptors. \
-你指定的最大连接数10000要求至少最大文件描述符要10032个。
+   没有制定配置文件，使用默认的配置。使用"redis-server /path/to/redis" 方式指定加载一个配置文件方式启动。
 
-3. Server can't set maximum open files to 10032 because of OS error: Operation not permitted. \
-因为一个操作系统错误服务器不能设置最大的打开文件数为10032：没有操作权限。
+2. You requested maxclients of 10000 requiring at least 10032 max file descriptors. 
 
-4. Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'. \
-当前最大打开文件数为4096。作为低限制关系的补偿，最大连接数被减少为4064。如果你需要更高的最大连接数，增加'ulimit -n'的配置。
+   你指定的最大连接数10000要求至少最大文件描述符要10032个。
 
-5. WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128. \
-TCP的储配未交付设置值511不能被强制生效，因为 /proc/sys/net/core/somaxconn 设置为一个较低的值128。
+3. Server can't set maximum open files to 10032 because of OS error: Operation not permitted. 
 
-6. WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect. \
-overcommit_memory 设置为0！ 在低内存环境下的后台保存可能失败。在文件 /etc/sysctl.conf  中添加'vm.overcommit_memory = 1'，然后重启或运行命令'sysctl vm.overcommit_memory=1'使设置生效，来修复这个问题。
+   因为一个操作系统错误服务器不能设置最大的打开文件数为10032：没有操作权限。
 
-7. WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled. \
-你的"Transparent Huge Pages (THP)"支持在内核中启用了。 这将在使用Redis时造成延迟和内存使用问题。使用root运行命令'echo never > /sys/kernel/mm/transparent_hugepage/enabled'，并且将它添加到你的/etc/rc.local中使在重启后仍然保持生效来修复这个问题。在THP禁用之后Redis必须重启。
+4. Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+
+   当前最大打开文件数为4096。作为低限制关系的补偿，最大连接数被减少为4064。如果你需要更高的最大连接数，增加'ulimit -n'的配置。
+
+5. WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128. 
+
+   TCP的储配未交付设置值511不能被强制生效，因为 /proc/sys/net/core/somaxconn 设置为一个较低的值128。
+
+6. WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect. 
+
+    overcommit_memory 设置为0！ 在低内存环境下的后台保存可能失败。在文件 /etc/sysctl.conf  中添加'vm.overcommit_memory = 1'，然后重启或运行命令'sysctl vm.overcommit_memory=1'使设置生效，来修复这个问题。
+
+7. WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled. 
+
+   你的"Transparent Huge Pages (THP)"支持在内核中启用了。 这将在使用Redis时造成延迟和内存使用问题。使用root运行命令'echo never > /sys/kernel/mm/transparent_hugepage/enabled'，并且将它添加到你的/etc/rc.local中使在重启后仍然保持生效来修复这个问题。在THP禁用之后Redis必须重启。
 
 ## Hello Redis
 
