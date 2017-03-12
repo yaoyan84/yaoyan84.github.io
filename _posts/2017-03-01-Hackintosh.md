@@ -8,6 +8,7 @@ excerpt: 在x86台式机上安装macos系统的过程。
 ---
 
 ## 1. 配置列表
+
 | 项目 |   |
 | --- | --- |
 | CPU | intel i7 4790k |
@@ -17,6 +18,7 @@ excerpt: 在x86台式机上安装macos系统的过程。
 | 显卡 | Nvidia GeForce GTX 770 (2GB／微星） |
 | 声卡 | 板载 ALC1150 |
 | 网卡| 板载 Intel Ethernet Connection i217-V |
+
 
 >以上配置只有网卡和声卡装完后需要手动驱一下。
 
