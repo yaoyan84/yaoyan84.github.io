@@ -58,9 +58,9 @@ kext工具： [Kext Utility](https://github.com/yaoyan84/Hackintosh/blob/master/
 ## 6. 驱动声卡，并开启5.1声道
 ### 6.1. 声卡驱动安装
 
->驱动安装方法参考：https://github.com/yaoyan84/audio_CloverALC
+>驱动安装方法参考：[toleda的GitHub](https://github.com/toleda/audio_CloverALC)
 
-1. 从Github上下载脚本： [audio_cloverALC-120.command.zip](https://github.com/yaoyan84/audio_CloverALC/blob/master/deprecated/audio_cloverALC-120.command.zip) 解压得 audio_cloverALC-120_v1.0b0.command
+1. 从Github上下载脚本： [audio_cloverALC-120.command.zip](https://github.com/toleda/audio_CloverALC/blob/master/deprecated/audio_cloverALC-120.command.zip) 解压得 audio_cloverALC-120_v1.0b0.command
 2. 使用 Clover Configurator 挂载SSD的EFI分区，并加载当前的config文件，在设备里找到声卡注入设置，输入值“2”保存退出。
 3. 因为Clover Configurator挂在EFI的挂在点，与脚本要求不符合，所以运行会一直提示没有挂载EFI。解压后的脚本audio_cloverALC-120_v1.0b0.command，第56行：
 
