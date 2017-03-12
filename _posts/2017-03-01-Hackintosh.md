@@ -8,15 +8,15 @@ excerpt: 在x86台式机上安装macos系统的过程。
 ---
 
 ## 1. 配置列表
-项目 |   |
----|---
-CPU | intel i7 4790k 
-主板技嘉 |  Z97X-UD3H-CF
-内存芝奇 | DDR3 1600MHz
-主硬盘 | 闪迪 SDSSDH2256G(256GB)
-显卡 | Nvidia GeForce GTX 770 (2GB／微星）
-声卡 | 板载 ALC1150
-网卡| 板载 Intel Ethernet Connection i217-V
+| 项目 |   |
+| --- | --- |
+| CPU | intel i7 4790k |
+| 主板技嘉 |  Z97X-UD3H-CF |
+| 内存芝奇 | DDR3 1600MHz |
+| 主硬盘 | 闪迪 SDSSDH2256G(256GB) |
+| 显卡 | Nvidia GeForce GTX 770 (2GB／微星） |
+| 声卡 | 板载 ALC1150 |
+| 网卡| 板载 Intel Ethernet Connection i217-V |
 
 >以上配置只有网卡和声卡装完后需要手动驱一下。
 
