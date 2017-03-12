@@ -5,13 +5,13 @@ description: 欢迎来到YaoYan的Blog~
 # 头像里面的标题
 avatarTitle: yaoyan
 # 头像里面的描述
-avatarDesc: 运维/瞎捣鼓
+avatarDesc: 瞎捣鼓
 url: "http://yaoyan.me"
 
 # Comment
 comment:
     # disqus:
-    duoshuo: 6393939095948625000
+    #duoshuo: 6393939095948625000
 
 # Social
 social:
