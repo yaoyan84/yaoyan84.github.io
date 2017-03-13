@@ -18,7 +18,7 @@ excerpt: Dokuwiki的一些插件使用记录（一）。
 
 修改默认文章模版： **lib/plugins/blog/_template.txt** ，这种模仿博客模式，便于引导用户按照一定的格式发表页面。还可以加上discussion插件，这不就冒充bbs了么。
 
-![fdsaf](/Volumes/MyDisk01/Pictures/截图/Snip20170313_3.png)
+![](/images/posts/Snip20170313_3.png)
 
 该blog插件显示文章列表，是依赖**include**插件
 
