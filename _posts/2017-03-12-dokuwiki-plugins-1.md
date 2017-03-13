@@ -7,9 +7,9 @@ tags: Dokuwiki Plugin
 excerpt: Dokuwiki的一些插件使用记录（一）。
 ---
 
-最近在研究Dokuwiki系统，准备试试看能不能解决问题。发现Dokuwiki确实是一个很强大的东西，wiki这种自由协作的额思路在一个团队中用的好确实也有他的作用。
+最近在研究Dokuwiki系统，准备试试看能不能解决问题。发现Dokuwiki确实是一个很强大的东西，wiki这种自由协作的思路在一个团队中确实能有许多作用。
 
-单纯的wiki并不能满足我们的需求，还好Dokuwiki有丰富的插件，并且简单易用。Dokuwiki基础不用过多赘述，下面总结一下几个插件的使用。
+单纯的wiki并不能满足我们的需求，还好Dokuwiki有丰富的插件，并且简单易用。Dokuwiki基础用法什么的不用过多赘述，下面总结一下几个插件的使用。
 
 
 ### blog plugin
