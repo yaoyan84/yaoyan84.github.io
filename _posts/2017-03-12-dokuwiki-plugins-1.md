@@ -115,7 +115,7 @@ echo "<a href='$wlink' class='action'>Userpage </a>";
 查看用户收藏：
 
   *  <code>{ {starred} } </code>：现实当前用户的收藏
-  *  <code>{{starred>min}}</code> ：最小化显示模式，没有收藏时候不会提示“You currently have no starred pages.“这句英文： 
+  *  <code>{\{starred>min}\}</code> ：最小化显示模式，没有收藏时候不会提示“You currently have no starred pages.“这句英文： 
   *  <code>{{starred>min|5}}</code> 或 <code>{{starred|5}}</code>： 加上条数限制.
 
 这个插件我也是用在用户主页上，显示该用户的收藏。
