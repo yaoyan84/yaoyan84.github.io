@@ -37,9 +37,7 @@ Syntax and Usage
 
 You can see the syntax below. Just replace namespace with the namespace you want to list.
 
-```
 {{nslist>namespace}}
-```
 
 parameters
 
@@ -49,25 +47,20 @@ nodate
 
 To remove the date add the parameter nodate like:
 
-```
 {{nslist>namespace nodate}}
-```
 
 nodsort
 
 In order to sort the pages alphabetically, add the parameter nodsort:
 
-```
 {{nslist>namespace nodsort}}
-```
 
 depth
 
 To also show pages from subnamespaces add the desired depth (default is 1):
 
-```
 {{nslist>namespace 7}}
-```
+
 
 
 
@@ -77,11 +70,9 @@ To also show pages from subnamespaces add the desired depth (default is 1):
 
 设置管理里该插件有三个选项:
 
-```
-target: The user page ID prefix
-template: The user page template (page or namespace)
-create_summary: The summary for the page creation(s)
-```
+  * target: The user page ID prefix
+  * template: The user page template (page or namespace)
+  * create_summary: The summary for the page creation(s)
 
 Intial setup
 
