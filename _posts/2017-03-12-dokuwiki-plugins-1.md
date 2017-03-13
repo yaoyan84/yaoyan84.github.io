@@ -120,6 +120,8 @@ echo "<a href='$wlink' class='action'>Userpage </a>";
 
 这个插件我也是用在用户主页上，显示该用户的收藏。
 
+>发现这个markdown里输入两个{  }连用的wiki语法，放在代码里也不行。。。。无语
+
 ### 修改字体大小
 模版css/basic.less  第22行位置。
 
