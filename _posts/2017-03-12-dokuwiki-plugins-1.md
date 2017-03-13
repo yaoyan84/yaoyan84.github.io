@@ -37,7 +37,7 @@ Syntax and Usage
 
 You can see the syntax below. Just replace namespace with the namespace you want to list.
 
-<code> \{\{nslist>namespace\}\} </code>
+<code> {{nslist>namespace}} </code>
 
 parameters
 
@@ -47,19 +47,19 @@ nodate
 
 To remove the date add the parameter nodate like:
 
-<code> \{\{nslist>namespace nodate\}\} </code>
+<code> {{nslist>namespace nodate}} </code>
 
 nodsort
 
 In order to sort the pages alphabetically, add the parameter nodsort:
 
-<code> \{\{nslist>namespace nodsort\}\} </code>
+<code> {{nslist>namespace nodsort}} </code>
 
 depth
 
 To also show pages from subnamespaces add the desired depth (default is 1):
 
-<code> \{\{nslist>namespace 7\}\} </code>
+<code> {{nslist>namespace 7}} </code>
 
 
 
@@ -97,7 +97,7 @@ echo "<a href='$wlink' class='action'>Userpage </a>";
 
 查看变更的页面，我主要用在用户主页上，显示该用户最近更改过的页面。
 
-<code>\{\{changes>user = @USER@\}\}</code>
+<code>{{changes>user = @USER@}}</code>
 
 ### starred
 
@@ -114,9 +114,9 @@ echo "<a href='$wlink' class='action'>Userpage </a>";
 
 查看用户收藏：
 
-  *  <code>\{\{starred\}\} </code>：现实当前用户的收藏
-  *  <code>\{\{starred>min\}\}</code> ：最小化显示模式，没有收藏时候不会提示“You currently have no starred pages.“这句英文： 
-  *  <code>\{\{starred>min|5\}\}</code> 或 <code>\{\{starred|5\}\}</code>： 加上条数限制.
+  *  <code>{{starred}} </code>：现实当前用户的收藏
+  *  <code>{{starred>min}}</code> ：最小化显示模式，没有收藏时候不会提示“You currently have no starred pages.“这句英文： 
+  *  <code>{{starred>min|5}}</code> 或 <code>{{starred|5}}</code>： 加上条数限制.
 
 这个插件我也是用在用户主页上，显示该用户的收藏。
 
