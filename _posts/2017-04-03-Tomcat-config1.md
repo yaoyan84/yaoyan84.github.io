@@ -43,7 +43,7 @@ drwxr-x---. 9 tomcat usr     172 4月   3 11:30 apache-tomcat-7.0.76
 -rw-r--r--. 1 tomcat usr 8957288 3月   9 22:08 apache-tomcat-7.0.76.tar.gz
 ```
 
-1. 将tomcat下的 **webapps** 的用户修改为tomcatapp，所属组保持为usr，并确保组权限为可读可执行，不能写。
+2. 将tomcat下的 **webapps** 的用户修改为tomcatapp，所属组保持为usr，并确保组权限为可读可执行，不能写。
 
   ```
 [root@test-140 apache-tomcat-7.0.76]# chown -R  tomcatapp:usr webapps
@@ -51,7 +51,7 @@ drwxr-x---. 9 tomcat usr     172 4月   3 11:30 apache-tomcat-7.0.76
 [root@test-140 apache-tomcat-7.0.76]# chmod -R  g+rx webapps/
 ```
 
-1. 将tomcat下其他目录，bin、conf、lib的用户修改为tomcatconf，所属组保持为usr，并确保组权限为可读可执行，不能写。
+3. 将tomcat下其他目录，bin、conf、lib的用户修改为tomcatconf，所属组保持为usr，并确保组权限为可读可执行，不能写。
 
   ```
 [root@test-140 apache-tomcat-7.0.76]# chown -R  tomcatconf:usr  bin  conf  lib
