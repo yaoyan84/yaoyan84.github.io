@@ -30,34 +30,34 @@ tomcat非配置项的策略问题，参考官方文档:[Non-Tomcat setting](http
 
 1. 去掉tomcat文件的other用户所有的权限。
 
-  ```
-[tomcat@test-140 apache-tomcat-7.0.76]$ cd ..
-[tomcat@test-140 app]$ ll
-总用量 8748
-drwxr-xr-x. 9 tomcat usr     172 4月   3 11:30 apache-tomcat-7.0.76
--rw-r--r--. 1 tomcat usr 8957288 3月   9 22:08 apache-tomcat-7.0.76.tar.gz
-[tomcat@test-140 app]$ chmod -R o-wrx apache-tomcat-7.0.76
-[tomcat@test-140 app]$ ll
-总用量 8748
-drwxr-x---. 9 tomcat usr     172 4月   3 11:30 apache-tomcat-7.0.76
--rw-r--r--. 1 tomcat usr 8957288 3月   9 22:08 apache-tomcat-7.0.76.tar.gz
-```
+	  ```
+ 	[tomcat@test-140 apache-tomcat-7.0.76]$ cd ..
+	[tomcat@test-140 app]$ ll
+	总用量 8748
+	drwxr-xr-x. 9 tomcat usr     172 4月   3 11:30 apache-tomcat-7.0.76
+	-rw-r--r--. 1 tomcat usr 8957288 3月   9 22:08 apache-tomcat-7.0.76.tar.gz
+	[tomcat@test-140 app]$ chmod -R o-wrx apache-tomcat-7.0.76
+	[tomcat@test-140 app]$ ll
+	总用量 8748
+	drwxr-x---. 9 tomcat usr     172 4月   3 11:30 apache-tomcat-7.0.76
+	-rw-r--r--. 1 tomcat usr 8957288 3月   9 22:08 apache-tomcat-7.0.76.tar.gz
+	```
 
 2. 将tomcat下的 **webapps** 的用户修改为tomcatapp，所属组保持为usr，并确保组权限为可读可执行，不能写。
 
-  ```
-[root@test-140 apache-tomcat-7.0.76]# chown -R  tomcatapp:usr webapps
-[root@test-140 apache-tomcat-7.0.76]# chmod -R  g-w webapps/
-[root@test-140 apache-tomcat-7.0.76]# chmod -R  g+rx webapps/
-```
+	```
+	[root@test-140 apache-tomcat-7.0.76]# chown -R  tomcatapp:usr webapps
+	[root@test-140 apache-tomcat-7.0.76]# chmod -R  g-w webapps/
+	[root@test-140 apache-tomcat-7.0.76]# chmod -R  g+rx webapps/
+	```
 
 3. 将tomcat下其他目录，bin、conf、lib的用户修改为tomcatconf，所属组保持为usr，并确保组权限为可读可执行，不能写。
 
-  ```
-[root@test-140 apache-tomcat-7.0.76]# chown -R  tomcatconf:usr  bin  conf  lib
-[root@test-140 apache-tomcat-7.0.76]# chmod -R  g-w   bin conf  lib
-[root@test-140 apache-tomcat-7.0.76]# chmod -R  g+rx   bin conf  lib
-```
+	```
+	[root@test-140 apache-tomcat-7.0.76]# chown -R  tomcatconf:usr  bin  conf  lib
+	[root@test-140 apache-tomcat-7.0.76]# chmod -R  g-w   bin conf  lib
+	[root@test-140 apache-tomcat-7.0.76]# chmod -R  g+rx   bin conf  lib
+	```
 
 tomcat里目录权限变为：
 
