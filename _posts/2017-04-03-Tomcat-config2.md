@@ -60,9 +60,10 @@ mkdir /log/tomcat
 [tomcat@test-140 apache-tomcat-7.0.76]$ 
 ```
 
-```catalina.out```已输出到/log/tomcat中。
+可以看到 ```catalina.out``` 已输出到/log/tomcat中。
 
-### 2. access日志位置
+
+### 2. access日志位置修改
 
 access日志在```server.xml```中配置，配置比较直观：
 
@@ -75,7 +76,7 @@ access日志在```server.xml```中配置，配置比较直观：
                pattern="%h %l %u %t &quot;%r&quot; %s %b" />
 ```
 
-在```server.xml```文件的137行（tomcat-7.0.76）处修改 **directory** 的值即可。
+ 在```server.xml```文件的137行（tomcat-7.0.76）处修改 **directory** 的值即可。
 
 如修改为：
 
