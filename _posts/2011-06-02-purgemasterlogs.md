@@ -3,7 +3,7 @@ layout: post
 title:  "清除MySql-bin日志"
 date:   2011-06-02 20:06:05
 categories: Web
-tags: php 分页
+tags: mysql
 excerpt: 清除MySql-bin日志。
 ---
 
