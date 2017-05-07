@@ -51,7 +51,7 @@ yellow   open      filebeat-2017.04.28  0EB4UTI-Shmct4wDHOuw0g  5      1     546
 
 ### 创建索引
 
-现在让我们创建一个名叫==customer==的索引，然后再次列出所有的索引：
+现在让我们创建一个名叫**customer**的索引，然后再次列出所有的索引：
 
 ```
 PUT /customer?pretty
