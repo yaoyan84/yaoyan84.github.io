@@ -558,7 +558,7 @@ ab73f3b47d8d        ubuntu              "/bin/bash"         32 m
 
 
 
-*<第一天学习结束>*
+*<第一天学习结束，学习用书《第一本Docker书》James Turnbull>*
 
 
 
