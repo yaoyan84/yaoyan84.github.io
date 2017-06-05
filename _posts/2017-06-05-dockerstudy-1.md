@@ -31,7 +31,7 @@ Docker CE 有两个升级通道, stable版 和 edge版:
 
 **先决条件：** Docker CE 在 CentOS 7.3 64-bit上被支持。
 
-1. 设置软件仓库
+设置软件仓库
 在CentOS上设置Docker CE软件仓库 :
 
 ``` shell
@@ -44,7 +44,6 @@ sudo yum-config-manager \
 sudo yum makecache fast
 ```
 
-2. 获取 Docker CE
 在CentOS上 安装最新版的Docker CE：
 
 ``` shell
@@ -57,8 +56,8 @@ sudo yum -y install docker-ce
 sudo systemctl start docker
 ```
 
-3. 测试你的Docker CE安装
-测试你的安装:
+测试你的Docker CE安装
+
 
 ```shell
 sudo docker run hello-world
