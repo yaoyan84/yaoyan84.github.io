@@ -200,7 +200,7 @@ For more examples and ideas, visit:
 
 ### Docker服务控制
 
-Docker在CentOS中是已服务方式运行，所以可以通过systemctl来查看状态和停启：
+Docker在CentOS中是以服务方式运行，所以可以通过systemctl来查看状态和停启：
   * 查看状态：systemctl status docker
   * 停止： systemctl stop docker
   * 启动： systemctl start docker
