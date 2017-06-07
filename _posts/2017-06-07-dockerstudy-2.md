@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Docker学习笔记（2）"
-date:   2011-06-07 22:46:05
+date:   2017-06-07 22:46:05
 categories: Docker
 tags: Docker
 excerpt: 看书学习Docker，第2天。
@@ -20,6 +20,7 @@ docker run --name yy_container -i -t ubuntu /bin/bash
  * 大写字幕A-Z
  * 数字0-9
  * 下划线、圆点、横线
+
 使用正则表达为  **[a-zA-Z0-9_.-]**
 
 容器的名称必须是唯一的，很多命令中可以使用名称来代替ID，更有助于分辨容器。
