@@ -275,13 +275,6 @@ docker run --restart=always  --name daemon_always -d ubuntu /bin/sh -c "while tr
 
  * -f  或  --format 选定查看结果，支持完整的Go语言模板
 
-
-[root@yaoyantest1 etc]# docker inspect --format='{{ .State.Running }}'  daemon_always
-true
-[root@yaoyantest1 etc]# docker inspect --format='{{ .NetworkSettings.IPAddress }}'  daemon_always
-172.17.0.3
-
-
 ```docker inspect``` 可同时查看多个容器
 
 >NOTE： 可以通过浏览 /var/lib/docker 目录深入了解Docker的工作原理。该目录存放着Docker的镜像、容器以及容器的配置。所有的容器都保存在/var/lib/docker/containers 目录下。
