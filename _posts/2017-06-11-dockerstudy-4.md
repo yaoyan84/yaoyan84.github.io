@@ -275,7 +275,7 @@ docker run --restart=always  --name daemon_always -d ubuntu /bin/sh -c "while tr
 
  * -f  或  --format 选定查看结果，支持完整的Go语言模板
 
-```
+```shell
 [root@yaoyantest1 etc]# docker inspect --format='{{ .State.Running }}'  daemon_always
 true
 [root@yaoyantest1 etc]# docker inspect --format='{{ .NetworkSettings.IPAddress }}'  daemon_always
