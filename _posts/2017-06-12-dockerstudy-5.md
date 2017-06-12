@@ -379,7 +379,7 @@ jamtur01/puppetmaster   latest              ada3e5bfc468        3 years ago     
 
 执行 ```docker inspect yaoyan84/nginx:webproxy```  可查看镜像详细信息。
 
->NOTE： [https://docs.docker.com/engine/reference/commandline/commit/]([https://docs.docker.com/engine/reference/commandline/commit/) 可查看全部选项
+>NOTE： [https://docs.docker.com/engine/reference/commandline/commit/](https://docs.docker.com/engine/reference/commandline/commit/) 可查看全部选项
 
 **从提交的镜像创建容器**
 
