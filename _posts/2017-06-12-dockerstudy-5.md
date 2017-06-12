@@ -392,7 +392,7 @@ root@caf6c2c2f48a:/# which nginx
 /usr/sbin/nginx
 ```
 
-
+*<学习用书《第一本Docker书》James Turnbull>*
 
   [1]: ./images/1497277861506.jpg
   [2]: ./images/1497277926935.jpg
