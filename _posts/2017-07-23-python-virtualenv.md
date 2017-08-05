@@ -200,7 +200,7 @@ ModuleNotFoundError: No module named 'tornado'
 
 如未使用该参数，如testenv3，则是一个干净的虚拟环境：
 
-```shell
+```shell?linenums
 D:\python>virtualenv  testenv3
 Using base prefix 'c:\\python36'
 New python executable in D:\python\testenv3\Scripts\python3.exe
