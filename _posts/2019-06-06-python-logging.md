@@ -9,6 +9,8 @@ excerpt: "使用logging模块输出日志"
 
 python可以使用**logging** 模块输出日志，能满足大部分场景下的日志输出需求。
 
+[logging 官方文档](https://docs.python.org/zh-cn/3/library/logging.html)
+
 ## 主要对象
 
 logging模块下主要的几个常用对象有 **Logger** 、**Handler** 、 **Formatter**
