@@ -7,9 +7,6 @@ tags:  oracle sqlplus numwidth
 excerpt: "Oracle sqlplus长数字不显示为科学记数法"
 ---
 
-Oracle sqlplus长数字不显示为科学记数法
-====
-
 在使用 ```sqlplus``` 查询数据库时，如果数字长度大于10位，默认为记为科学记数法:
 
 ```sql
