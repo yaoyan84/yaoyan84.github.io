@@ -22,7 +22,7 @@ print("Unit-price: " + str(price) + "/" + unit)
 Unit-price: 13.2456/kg
 ```
 
-这种方法的问题是需要将非字符串类型的变量强制转换为字符串类型，否则会报错 ```TypeError: must be str, not int``` 并且要用很多 ```+``` 号，降低可阅读性。
+这种方法的问题是需要将非字符串类型的变量强制转换为字符串类型，否则会报错 ```TypeError: must be str, not float``` 并且要用很多 ```+``` 号，降低可阅读性。
 
 
 ### 2. 格式化输出方法
