@@ -15,7 +15,7 @@ wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce
 wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-cli-19.03.9-3.el7.x86_64.rpm
 ```
 
-### 2、卸载 `podman-manpages`
+## 2、卸载 `podman-manpages`
 
 解决安装时报`Error: Transaction check error:` 错误，提示 `docker-ce-cli` 与`podman-manpages` 有文件冲突的问题，需要卸载`podman-manpages` 。
 
@@ -23,20 +23,20 @@ wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce
 yum remove podman-manpages.noarch 
 ```
 
-### 3、安装
+## 3、安装
 
 ```
 yum install containerd.io-1.2.13-3.2.el7.x86_64.rpm docker-ce-19.03.9-3.el7.x86_64.rpm docker-ce-cli-19.03.9-3.el7.x86_64.rpm
 ```
 
-### 4、启动docker守护
+## 4、启动docker守护
 
 ```
 systemctl enable docker
 systemctl start docker
 ```
 
-### 5、查看状态
+## 5、查看状态
 
 ```
 systemctl status docker
